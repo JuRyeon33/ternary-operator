@@ -2,17 +2,10 @@
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 13;
+        int score = 61;
 
-        int max;
+        String result = (score >= 60) ? "통과" : "탈락";
 
-        if (a > b) {
-            max = a;
-        } else {
-            max = b;
-        }
-
-        System.out.println(max);
+        System.out.println("결과 : " + score);
     }
 }
